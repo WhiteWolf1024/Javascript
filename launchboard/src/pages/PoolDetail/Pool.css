@@ -1,0 +1,128 @@
+.blank {
+    width: 100vw;
+    background-color: white;
+}
+
+.pool-detail-body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.loading {
+    width: 300px !important;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    margin-left: calc(50vw - 150px) !important;
+}
+
+.loading1 {
+    width: 300px !important;
+    margin-top: calc(20vh - 100px) !important;
+    margin-bottom: 100px !important;
+    margin-left: calc(50vw - 182px) !important;
+}
+
+.loading2 {
+    width: 300px !important;
+    margin-top: calc(20vh - 100px) !important;
+    margin-bottom: 100px !important;
+    margin-left: calc(50vw - 144px) !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
+
+@media only screen and (min-width: 1440px) {  
+    .pool-detail-body {
+        background-color: white;
+    }
+    .risk-free {
+        margin-left: 48px !important;
+    }
+    .stake-list-body {
+        margin: 0 32px 30px 32px !important;
+        overflow-y: auto;
+        height: 40vh;
+    }
+    .connect-dialog-title {
+      padding: 16px 32px 8px 32px !important;
+      width: 890px !important;
+    }
+    .loading1 {
+        width: 300px !important;
+        margin-top: 80px !important;
+        margin-bottom: 100px !important;
+    }
+    .pool-divider {
+        margin: 30px !important;
+        width: calc(100% - 60px) !important;
+    }
+}
+
+.stake-list-title {
+    margin: 30px 42px 30px 42px !important;
+}
+
+.stake-list-body {
+    margin: 0 32px 30px 32px !important;
+    overflow-y: auto;
+    height: 40vh;
+    
+    border: solid;
+    border-width: thin;
+    border-color: #DDDCDC;
+    border-radius: 10px;
+}
+
+.pool-divider {
+    margin: 4vw;
+    width: calc(100% - 8vw);
+}
+
+.risk-free {
+    margin-left: 4vw;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4BC9FF;
+}
+
+.connect-dialog {
+    margin: 0px;
+    bottom: 0;
+    position: absolute;
+}
+
+.connect-dialog-title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: move;
+    width: calc(100vw - 70px);
+    color: #0377A8;
+}
+
+.connect-dialog-close {
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+    width: 20px;
+}

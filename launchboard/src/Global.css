@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.page-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.cc {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space {
+  justify-content: space-around;
+}
+
+.space2 {
+  justify-content: space-between;
+}
+.col12 {
+  width: 100%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col8 {
+  width: 66.6666666667%;
+}
+
+.col4 {
+  width: 33.3333333333;
+}
+
+.m10 {
+  margin: 10px;
+}

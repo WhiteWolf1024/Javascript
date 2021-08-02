@@ -1,0 +1,602 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PoolDetailPage tests PoolDetailPage renders without craching 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="blank"
+      >
+        <div
+          class="pool-detail-body"
+        >
+          <div>
+            <a>
+              <img
+                class="land-logo"
+                src="land-logo.png"
+              />
+            </a>
+          </div>
+          <div
+            class="otoco-body"
+          >
+            <img
+              class="otoco-logo"
+              src="another-pool.png"
+            />
+            <div>
+              <div
+                class="otoco-title"
+              />
+              <div
+                class="otoco-content"
+              >
+                "Compliant corporate structures “in-a-box” for DeFi"
+              </div>
+            </div>
+          </div>
+          <div
+            class="pool-divider"
+          >
+            <hr
+              class="MuiDivider-root"
+            />
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+            >
+              <div
+                class="share-list-otoco"
+              >
+                <img
+                  class="share-logo"
+                  src="com-logo.png"
+                />
+                <a
+                  class="share-description"
+                >
+                  www.otoco.com
+                </a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+            >
+              <div
+                class="share-list-discord"
+              >
+                <img
+                  class="share-logo"
+                  src="discord-logo.png"
+                />
+                <a
+                  class="share-description"
+                >
+                  Chat on Discord
+                </a>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+            >
+              <div
+                class="share-list-vote"
+              >
+                <img
+                  class="share-logo"
+                  src="vote-logo.png"
+                  style="width: 10px; margin-left: 5vw; margin-right: 28px;"
+                />
+                <a
+                  class="share-description"
+                >
+                  Vote
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pool-divider"
+          >
+            <hr
+              class="MuiDivider-root"
+            />
+          </div>
+          <div
+            class="pool-detail-progress"
+          >
+            <div
+              class="stake-info-body"
+            >
+              <div
+                class="stake-info-list"
+              >
+                <div
+                  class="stake-info-amount"
+                  id="stake-info-stakes"
+                />
+                <div
+                  class="stake-info-state"
+                >
+                  STAKES
+                </div>
+              </div>
+              <div
+                class="stake-info-list"
+              >
+                <div
+                  class="stake-info-amount"
+                  id="stake-info-staked"
+                />
+                <div
+                  class="stake-info-state"
+                >
+                  STAKED
+                </div>
+              </div>
+              <div
+                class="stake-info-list"
+              >
+                <div
+                  class="stake-info-amount"
+                  id="stake-info-daysleft"
+                />
+                <div
+                  class="stake-info-state"
+                >
+                  DAYS LEFT
+                </div>
+              </div>
+            </div>
+            <div
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="NaN"
+              class="MuiLinearProgress-root WithStyles(ForwardRef(LinearProgress))-root-1 MuiLinearProgress-colorPrimary WithStyles(ForwardRef(LinearProgress))-colorPrimary-2 MuiLinearProgress-determinate"
+              id="stake-info-progress"
+              role="progressbar"
+            >
+              <div
+                class="MuiLinearProgress-bar WithStyles(ForwardRef(LinearProgress))-bar-3 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+                style="transform: translateX(NaN%);"
+              />
+            </div>
+            <div
+              class="progress-info-body"
+            >
+              <div
+                class="progress-info-min"
+                id="stake-info-min"
+              >
+                 MIN
+              </div>
+              <div
+                class="progress-info-max"
+                id="stake-info-max"
+              >
+                 MAX
+              </div>
+            </div>
+          </div>
+          <div
+            class="pool-divider"
+          >
+            <hr
+              class="MuiDivider-root"
+            />
+          </div>
+          <div
+            class="risk-free"
+          >
+            📖 How risk-free staking works
+          </div>
+          <div
+            class="connect-wallet-body"
+          >
+            <div
+              class="connect-wallet-info-body"
+            >
+              <div
+                class="connect-wallet-info-top"
+              >
+                <div
+                  class="connect-wallet-info-position"
+                >
+                  <div
+                    class="connect-wallet-info-positive-state"
+                  >
+                    POSITION
+                  </div>
+                  <div
+                    class="connect-wallet-info-positive-amount"
+                    id="connect-wallet-info-position"
+                  >
+                    33
+                  </div>
+                </div>
+                <div
+                  class="connect-wallet-blank"
+                />
+                <div
+                  class="connect-wallet-info-stake"
+                >
+                  <div
+                    class="connect-wallet-info-stake-state"
+                  >
+                    STAKE
+                  </div>
+                  <div
+                    class="connect-wallet-info-stake-amount"
+                    id="connect-wallet-info-staked"
+                  />
+                </div>
+              </div>
+              <div
+                class="connect-wallet-button"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-4"
+                  id="connect-wallet-button"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    CONNECT WALLET
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <h2
+            class="stake-list-title"
+          >
+            All Stakes
+          </h2>
+          <div
+            class="stake-list-body"
+          >
+            <div>
+              <img
+                class="loading1"
+                src="loading.gif"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="blank"
+    >
+      <div
+        class="pool-detail-body"
+      >
+        <div>
+          <a>
+            <img
+              class="land-logo"
+              src="land-logo.png"
+            />
+          </a>
+        </div>
+        <div
+          class="otoco-body"
+        >
+          <img
+            class="otoco-logo"
+            src="another-pool.png"
+          />
+          <div>
+            <div
+              class="otoco-title"
+            />
+            <div
+              class="otoco-content"
+            >
+              "Compliant corporate structures “in-a-box” for DeFi"
+            </div>
+          </div>
+        </div>
+        <div
+          class="pool-divider"
+        >
+          <hr
+            class="MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+          >
+            <div
+              class="share-list-otoco"
+            >
+              <img
+                class="share-logo"
+                src="com-logo.png"
+              />
+              <a
+                class="share-description"
+              >
+                www.otoco.com
+              </a>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+          >
+            <div
+              class="share-list-discord"
+            >
+              <img
+                class="share-logo"
+                src="discord-logo.png"
+              />
+              <a
+                class="share-description"
+              >
+                Chat on Discord
+              </a>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"
+          >
+            <div
+              class="share-list-vote"
+            >
+              <img
+                class="share-logo"
+                src="vote-logo.png"
+                style="width: 10px; margin-left: 5vw; margin-right: 28px;"
+              />
+              <a
+                class="share-description"
+              >
+                Vote
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pool-divider"
+        >
+          <hr
+            class="MuiDivider-root"
+          />
+        </div>
+        <div
+          class="pool-detail-progress"
+        >
+          <div
+            class="stake-info-body"
+          >
+            <div
+              class="stake-info-list"
+            >
+              <div
+                class="stake-info-amount"
+                id="stake-info-stakes"
+              />
+              <div
+                class="stake-info-state"
+              >
+                STAKES
+              </div>
+            </div>
+            <div
+              class="stake-info-list"
+            >
+              <div
+                class="stake-info-amount"
+                id="stake-info-staked"
+              />
+              <div
+                class="stake-info-state"
+              >
+                STAKED
+              </div>
+            </div>
+            <div
+              class="stake-info-list"
+            >
+              <div
+                class="stake-info-amount"
+                id="stake-info-daysleft"
+              />
+              <div
+                class="stake-info-state"
+              >
+                DAYS LEFT
+              </div>
+            </div>
+          </div>
+          <div
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="NaN"
+            class="MuiLinearProgress-root WithStyles(ForwardRef(LinearProgress))-root-1 MuiLinearProgress-colorPrimary WithStyles(ForwardRef(LinearProgress))-colorPrimary-2 MuiLinearProgress-determinate"
+            id="stake-info-progress"
+            role="progressbar"
+          >
+            <div
+              class="MuiLinearProgress-bar WithStyles(ForwardRef(LinearProgress))-bar-3 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+              style="transform: translateX(NaN%);"
+            />
+          </div>
+          <div
+            class="progress-info-body"
+          >
+            <div
+              class="progress-info-min"
+              id="stake-info-min"
+            >
+               MIN
+            </div>
+            <div
+              class="progress-info-max"
+              id="stake-info-max"
+            >
+               MAX
+            </div>
+          </div>
+        </div>
+        <div
+          class="pool-divider"
+        >
+          <hr
+            class="MuiDivider-root"
+          />
+        </div>
+        <div
+          class="risk-free"
+        >
+          📖 How risk-free staking works
+        </div>
+        <div
+          class="connect-wallet-body"
+        >
+          <div
+            class="connect-wallet-info-body"
+          >
+            <div
+              class="connect-wallet-info-top"
+            >
+              <div
+                class="connect-wallet-info-position"
+              >
+                <div
+                  class="connect-wallet-info-positive-state"
+                >
+                  POSITION
+                </div>
+                <div
+                  class="connect-wallet-info-positive-amount"
+                  id="connect-wallet-info-position"
+                >
+                  33
+                </div>
+              </div>
+              <div
+                class="connect-wallet-blank"
+              />
+              <div
+                class="connect-wallet-info-stake"
+              >
+                <div
+                  class="connect-wallet-info-stake-state"
+                >
+                  STAKE
+                </div>
+                <div
+                  class="connect-wallet-info-stake-amount"
+                  id="connect-wallet-info-staked"
+                />
+              </div>
+            </div>
+            <div
+              class="connect-wallet-button"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text WithStyles(ForwardRef(Button))-root-4"
+                id="connect-wallet-button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  CONNECT WALLET
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <h2
+          class="stake-list-title"
+        >
+          All Stakes
+        </h2>
+        <div
+          class="stake-list-body"
+        >
+          <div>
+            <img
+              class="loading1"
+              src="loading.gif"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

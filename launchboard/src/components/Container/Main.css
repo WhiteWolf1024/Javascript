@@ -1,0 +1,195 @@
+@media only screen and (min-width: 960px) {  
+  .header-logo-body{    
+    width: 300px;
+    text-align: left;
+    z-index: 1001;
+  }
+  .land-logo {
+    margin: 30px 20px 30px 80px !important;
+  }  
+  .header-button-body {
+    width: calc(100vw - 360px);
+    margin-top: 24px !important;
+    text-align: right;
+  }
+  .footer-risk-button-body {
+    width: calc(100% * 52) !important;
+    text-align: right !important;
+  }
+  .footer-explore-button-body {
+    width: calc(100% * 48) !important;
+    text-align: left !important;
+    margin-left: 30px !important;
+  }
+  .home-background-button{
+    width: 300px !important;
+    height: 48px !important;
+    background: white !important;
+    box-sizing: border-box !important;
+    margin-bottom: 25px !important;
+    border-radius: 7px !important;
+    color: #006EAA !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    z-index: 1000;
+  }  
+  .home-foreground-button{
+    width: 300px !important;
+    height: 48px !important; 
+    background: transparent !important;
+    border: 2px solid white !important;
+    box-sizing: border-box !important;
+    border-radius: 7px !important;
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    z-index: 1000;
+  }
+  .footer-body {
+    display: flex !important;
+    width: calc(100vw - 164px) !important;
+    background-image: url("../../assets/img/footer.png");
+    margin: 0 82px 0 82px !important;
+  }
+  .footer-license-body {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+  }  
+  .footer-license-left-body {
+    width: calc(100% * 50) !important;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .footer-license-right-body {
+    width: calc(100% * 50) !important;
+    margin-right: 82px !important;
+    text-align: right;
+  }
+  .footer-license-content {
+    width: 452px !important; 
+    font-size: 14px !important;
+    margin-left: 8px;
+    margin-bottom: 0px !important;
+  }
+  .footer-license-privacy-button {
+    cursor: pointer;
+    font-size: 14px !important;
+  }
+  .header-body {
+    height: 80px !important;
+  }
+}
+
+.footer-license-left-body {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.footer-license-right-body {
+  width: 50vw;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.footer-risk-button-body {
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-explore-button-body {
+  width: 100vw;
+  text-align: center;
+  align-items: center !important;
+}
+
+.home-connect-button{
+  width: 181px;
+  height: 40px !important;
+  background: white !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+  color: #006EAA !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  z-index: 1000;
+}
+
+.home-background-button{
+  width: 300px;
+  height: 48px !important;
+  background: white !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+  color: #006EAA !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  z-index: 1000;
+}
+
+.home-foreground-button{
+  width: 300px;
+  height: 48px !important;  
+  background: transparent !important;
+  border: 2px solid white !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  z-index: 1000;
+}
+
+.footer-license-content {
+  width: 100vw;
+  height: 17px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 17px;
+  color: #808080;
+  text-align: center;
+}
+
+.header-body {
+  display: flex;
+  height: 9vh ;
+}
+
+.footer-body {
+  background-image: url("../../assets/img/footer.png");
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin: 10px 0 10px 0;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+}
+
+.footer-license-body {
+  display: flex;
+  align-items: center;
+  color: #006EAA;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.footer-license-privacy-button {
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.land-logo {
+  margin: 20px;
+  z-index: 1001;
+}

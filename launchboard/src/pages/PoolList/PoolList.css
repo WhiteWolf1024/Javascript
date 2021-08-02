@@ -1,0 +1,55 @@
+.blank {
+    width: 100vw;
+    background-color: white;
+}
+
+.pool-list-body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #fbfafa;
+}
+
+.pool-list-tab-panel {
+    width: 33vw;
+    max-width: 33vw !important;
+    color: #00B1ED !important;
+}
+
+.pool-list-tab-body {
+    background-color: white !important;
+}
+
+.pool-list-content {
+    min-height: 60vh;
+}
+
+.loading {
+    width: 300px !important;
+    margin-top: 100px !important;
+    margin-left: calc(50vw - 150px) !important;
+}
+
+@media only screen and (min-width: 1440px) {  
+    .pool-list-header-body {
+        margin: 32px 24px 24px 36px !important;
+    }
+    .loading {
+        width: 300px !important;
+        margin-top: 100px !important;
+        margin-left: 240px !important;
+    }
+    .pool-list-content-body {
+        padding: 0 60px 40px 60px;
+    }
+}
+
+.pool-list-header-content {
+    text-align: center;
+}
+
+.pool-list-header-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vw;
+}

@@ -1,0 +1,837 @@
+@media only screen and (min-width: 960px) {  
+  .share-list-discord {
+    margin-left: 40px;
+  }  
+  .share-list-vote {
+    float: right;
+    margin-right: 80px;
+  }
+  .pool-detail-progress {
+    margin-left: 40px;
+    width: calc(100% - 80px);
+  }
+  .otoco-body {
+    display: flex;
+    align-items: center;
+    margin: 24px 24px 24px 42px !important;
+  }
+  .connect-wallet-button {
+    margin: 24px 0 0 0 !important;
+  }
+  .connect-wallet-info-top {
+    margin: 12px !important;
+  }
+  .connect-wallet-button {
+    margin: 24px 12px 12px 12px !important;
+  }
+  .connect-wallet-body {
+    width: calc(100vw - 1000px);
+    margin-top: 30px;
+    margin-left: 500px;
+  }
+  .connect-wallet-info-body {
+    margin: 24px !important;
+  }
+  .share-logo {
+    margin: 10px 20px 10px 48px !important;
+  }
+  .stake-list-info-body {
+    margin: 12px !important;
+  }
+  .my-stake-list-info-body {
+    margin: 12px 0 12px 5px !important;
+  }
+  .my-commit-list-info-body {
+    margin: 12px 0 12px 0 !important;
+  }
+  .connect-wallet-info-stake {
+    width: 12vw !important;
+  }
+  .otoco-logo{
+    margin: 20px 20px 20px 0 !important;
+  }
+  .connect-wallet-name {
+    width: 830px !important;
+  }
+  .connect-wallet-logo {
+    width: 50px !important;
+  }
+  .share-list-discord-body {
+    display: flex;
+    justify-content: center;
+  }
+  .stake-form-divider {
+    width: 798px !important;
+  }
+  .stake-form-body {
+    margin: 40px 30px 30px 30px !important;
+    width: calc(100% - 60px) !important;
+  }
+  .stake-form-contact-info-body {
+    padding: 20px 0 10px 0 !important;
+  }
+  .commited-stake-info-body {
+    margin: 12px !important;
+  }
+  .stake-list-blank {
+    width: 32px !important;
+  }
+  .my-stake-list-blank {
+    width: 60px !important;
+  }
+  .congratulation-body {
+    margin:60px !important;
+  }
+  .otoco-content {
+    font-size: 28px !important;
+  }
+}
+
+.pool-list-header-body {
+  margin-top: 30px !important;
+}
+
+.otoco-body {
+  display: flex;
+  align-items: center;
+}
+
+.pool-detail-explore-pools {
+  width: calc(15%);
+  text-align: right;
+  margin-right: 36px;  
+}
+
+.pool-list-header {
+  width: calc(85%);
+  display: flex;  
+}
+
+.otoco-logo {
+  width: 60px;
+  height: 60px;
+  margin: 20px 20px 20px 4vw;
+  z-index: 1001;
+}
+
+.otoco-title {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 45px;
+  color: #0377A8;
+}
+
+.otoco-content {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: black;
+}
+
+.share-list-otoco {
+  display: flex;
+  align-items: center;
+}
+
+.share-list-discord {
+  display: flex;
+  align-items: center;
+}
+
+.share-list-vote {
+  display: flex;
+  align-items: center;
+}
+
+.share-logo {
+  width: 21px;
+  height: 21px;
+  margin: 10px 20px 10px 4vw;
+  z-index: 1001;
+}
+
+.share-description {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0377A8;
+}
+
+.stake-info-body {
+  display: flex;
+  justify-content: center;
+}
+
+.stake-info-list {
+  width: 25vw;
+}
+
+.stake-info-commit-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.stake-info-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #0377A8;
+}
+
+.stake-info-state {
+  Height: 16px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+
+@media only screen and (min-width: 960px) {  
+  .progress-info-body {
+    margin: 5px 24px 5px 24px !important;
+  }
+  .pool-item-detail-button {
+    margin: 24px !important;
+  }
+  .progress-info-commit-bar {
+    margin: -20px 24px 0 24px !important;
+    z-index: 1000;
+  }
+}
+
+.progress-info-commit-bar {
+  position: absolute;
+  background-color: #D79413;
+  border-radius: 27px;
+  height: 20px;
+  margin: -20px 4vw 0 4vw;
+  z-index: 1000;
+}
+
+.progress-info-body {
+  display: flex;
+  margin: 4vw calc(4vw + 10px) 4vw 4vw;
+  justify-content: space-between;
+}
+
+.pool-item-days-left {
+  /* width: 46vw; */
+  text-align: left;
+  padding:7px;
+  border-radius:15px;
+}
+
+.pool-item-status {
+  /* width: 46vw; */
+  text-align: right;
+  padding:7px;
+  border-radius:15px;
+}
+
+.pool-item-status-new {
+  color: white;
+  background-color: #00B1ED;
+  padding:7px;
+  border-radius:15px;
+}
+
+.pool-item-status-commits {
+  color: #D79413;
+  background-color: #FDF0D6;
+  padding:7px;
+  border-radius:15px;
+}
+
+.pool-item-status-closed {
+  color: #FF4000;
+  background-color: #FFECE6 ;
+  padding:7px;
+  border-radius:15px;
+}
+
+.progress-info-min {
+  /* width: 46vw; */
+  text-align: left;
+  color: gray;
+}
+
+.progress-info-max {
+  /* width: 46vw; */
+  text-align: right;
+  margin-right: 5px;
+  color: gray;
+}
+
+.connect-wallet-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw;
+  padding: 13px 20px 13px 20px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.my-stake-logo-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+  border: 4px solid white;
+  border-radius: 50px;
+}
+
+.connect-wallet-info-top {
+  display: flex;
+}
+
+.connect-wallet-info-position {
+  width: 20vw;
+}
+
+.connect-wallet-info-positive-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: black;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.connect-wallet-info-positive-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: #ACACAC;
+  text-align: left;
+}
+
+.connect-wallet-blank {
+  width: 47vw;
+}
+
+.connect-wallet-info-stake {
+  width: 25vw;
+}
+
+.connect-wallet-info-stake-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.connect-wallet-info-stake-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: #ACACAC;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-wallet-zero-img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.connect-wallet-button {
+  text-align: center;
+  margin: 4vw 0vw 0vw 0vw;
+}
+
+.my-commit-list-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw 0 4vw 0;
+  padding: 13px 20px 8px 20px;
+  background-color: #D79413;
+  border-radius: 10px;
+}
+
+.my-stake-list-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw 0 4vw 0;
+  padding: 13px 20px 8px 20px;
+  background-color: #006EAA;
+  border-radius: 10px;
+}
+
+.stake-list-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw;
+  padding: 13px 20px 13px 20px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.stake-list-info-top {
+  display: flex;
+}
+
+.stake-list-info-position {
+  width: 20vw;
+}
+
+.my-stake-list-info-position {
+  width: 40vw;
+}
+
+.my-stake-list-info-positive-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.stake-list-info-positive-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: black;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.my-stake-list-info-positive-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: white;
+  text-align: left;
+  margin-left:18px;
+}
+
+.stake-list-info-positive-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: #ACACAC;
+  text-align: left;
+}
+
+.stake-list-info-stake {
+  width: 80vw;
+}
+
+.my-stake-list-info-stake {
+  width: 50vw;
+}
+
+.my-stake-list-info-stake-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: white;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.stake-list-info-stake-state {
+  Height: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  font-size: 11px;
+  color: black;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.my-stake-list-info-stake-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: white;
+  text-align: right;
+  margin-right: 8px;
+}
+
+.stake-list-info-stake-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: #ACACAC;
+  text-align: right;
+}
+
+.stake-list-blank {
+  width: 40px;
+  display: flex;
+}
+
+.my-stake-list-blank {
+  width: 60px;
+  display: flex;
+}
+
+.stake-list-logo-img {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  margin-top: 24px;
+}
+
+.connect-wallet-list {
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  /* padding: 5px 5px 5px 20px; */
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 15px;
+}
+
+.connect-wallet-name {
+  width: calc(100vw - 124px);
+  justify-content: left;
+  margin-left: 20px;
+  color: black;
+}
+
+.connect-wallet-logo {
+  width: 36px;
+  margin-top: 5px;
+  justify-content: right;
+}
+
+.connect-wallet-logo-img {
+  width: 36px;
+  height: 36px;
+}
+
+.stake-form-contact-info-body {
+  display: flex;
+  align-items: center;
+  padding: 4vw 0 4vw 0;
+  font-size: 14px;
+}
+
+.stake-form-contact-icon {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.stake-form-divider {
+  width: 92vw; 
+  margin-left: -20px !important;
+}
+
+.stake-form-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw;
+  padding: 13px 20px 13px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.stake-form-email-input {
+  margin-top: 0 !important;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;            
+  padding-bottom: 0;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #DDDCDC;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.stake-form-email-input-color {
+  color: black !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  font-family: sans-serif !important;
+  font-style: normal !important;
+  border-bottom: 1px solid black;
+}
+
+.stake-form-email-notify {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+.stake-form-connect-wallet-logo-img {
+  width: 16px;
+  height: 16px;
+}
+
+.stake-form-connect-wallet {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 5px 0;
+}
+
+.stake-form-connect-wallet-name {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 125%;
+}
+
+.stake-form-green-img {
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.stake-form-crypto-input {
+  margin-top: 16px !important;
+  margin-bottom: 8px !important;
+  margin-left: auto !important;
+  margin-right: auto !important; 
+  padding-top: 8px !important;           
+  padding-bottom: 0 !important;
+  border-bottom: 2px solid black !important;
+  margin-top: 0 !important;
+  font-weight: 500 !important;
+  color: black !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  font-family: sans-serif !important;
+  font-style: normal !important;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stake-form-crypto-logo-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.stake-form-crypto-name {
+  margin-bottom: 3px;
+  margin-right: 8px;
+}
+
+.stake-form-disable-button {
+  color: white;
+  background: none #DDDCDC !important;
+}
+
+.congratulation-body {
+  display: flex;
+  align-items: center;
+  margin: 4vw;
+}
+
+.congratulation-title {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 125%;
+  color: black;
+  margin: 15px 0 15px 0;
+}
+
+.congratulation-content {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black;
+  line-height: 127.5%;
+  margin-bottom: 15px;
+}
+
+.commited-stake-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw;
+  padding: 13px 20px 13px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.commited-stake-info-positive-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: black;
+  text-align: left;
+}
+
+.commited-stake-info-stake-amount {
+  Height: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 24px;
+  color: black;
+  text-align: right;
+}
+
+.connect-wallet-address-body {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.connect-wallet-address-content {
+  word-wrap: break-word;
+}
+
+.commited-stake-unstake {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 125%;
+  color: #0377A8;
+  cursor: pointer;
+}
+
+.commited-stake-info-top {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.pool-item-body {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+}
+
+.pool-item-content {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {  
+  .pool-item-info-body {
+      margin: 24px !important;
+  }
+}
+
+.pool-item-info-body {
+  border: solid;
+  border-width: thin;
+  border-color: #DDDCDC;
+  margin: 4vw;
+  padding: 13px 10px 5px 5px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.08);
+}
+
+.pool-item-detail-button {
+  margin: 4vw;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #4BC9FF;
+}
+
+.pool-item-detail-button:hover {
+  cursor: pointer;
+}
+
+.pool-item-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125%;
+  color: #0377A8;
+
+}
+
+.pool-item-logo {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  z-index: 1001;
+}
