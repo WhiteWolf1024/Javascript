@@ -17,6 +17,9 @@ async function main() {
   await hh.run('compile');
   const accounts = await ethers.getSigners();
 
+  ///sssssss
+  
+
   const MockERC20 = await hh.ethers.getContractFactory("MockERC20");
   const mockERC20 = await MockERC20.deploy(100);
 
