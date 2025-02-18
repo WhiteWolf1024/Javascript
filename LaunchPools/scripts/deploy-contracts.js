@@ -21,9 +21,7 @@ async function main() {
   const mockERC20 = await MockERC20.deploy(100);
 
   await mockERC20.deployed();
-  // const MOCKERC20 = "0xeA096Ba8979893CF64B7b67eF84BcD9C0cDe925c";
-  // const DAI = "0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa";
-  // const USDC = "0x75b0622cec14130172eae9cf166b92e5c112faff";
+
 
   const StakeVault = await hh.ethers.getContractFactory("StakeVault", {from: accounts[0]});
   const stakeVault = await StakeVault.deploy();
@@ -47,8 +45,6 @@ async function main() {
     "\nLaunchPoolTracker:", launchPoolTracker.address);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main()
   .then(() => process.exit(0))
   .catch(error => {
